@@ -1,0 +1,149 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  navbar sticky-top navbar-expand-lg navbar-dark bg-dark{
+   
+    text-align: center;
+    background-color: #FFFFFF;
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+  }
+
+  section {
+    padding-top: 5rem;
+  }
+
+.sticky-top
+{
+    position: sticky;
+}
+.container
+{
+ margin: 20px;
+  display: grid;
+flex-direction: column;
+border-bottom: 10px solid black;
+border-radius: 3px; 
+}
+.container1{
+  text-align: center;
+}
+.fadee{
+  position: absolute;
+  width: 1050px;
+  height: 745px; 
+  left: 25px;
+  top: 100px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 120px;
+  line-height: 100px;
+  color: #FFFFFF;
+ 
+}
+.col d-flex flex-wrap{
+  border-radius: 40px;
+}
+
+    .right
+    {
+        text-align: right;
+        position:relative;
+        top: 2%;
+        left: 20%;
+        margin: 20px 50px 30px 100px;
+       
+        
+    }
+    #home
+    {
+
+        background-color: grey;
+    }
+.about-img {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .about-img img {
+    max-width: 80%;
+    min-height: 80%;
+    border-radius: 20%;
+  }
+
+  .about-text {
+    font-size: 15px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-img {
+    margin-right: 10rem;
+   
+  }
+  #text-1
+  {
+    font-size: 40px;
+  }
+  .card-title
+  {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .card-body:hover
+  {
+    border-radius: 5px;
+   animation-name: backg;
+   animation-delay: 0.3s;
+   animation-duration:10s;
+
+  }
+  @keyframes backg
+  { 
+   0%
+    {
+    background-color:rgb(85, 81, 81);
+    color:white;
+    }
+  }
+  #knowmore
+  {
+    border-bottom:  5px solid rgb(92, 89, 89);
+  }
+  #formhead
+  {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+  }
+
+  #contactus
+  {
+    background-color: rgb(77, 75, 75);
+  }
+  .btn
+  {
+    padding : 10px 40px;
+    border-radius: 20%;
+    
+    border-color: rgb(87, 85, 85);
+}
+.form-floating
+{
+    color: white;
+}
+.form-control
+{
+    background-color: rgb(113, 107, 107);
+    color: white;
+    border-radius: 0%;
+}
